@@ -1,0 +1,42 @@
+.App{
+    display:flex;
+    width: 100%;
+}
+.box{
+    display: block;
+    border: 10px black solid;
+    height: 90vh;
+    padding: 8px;
+    margin: 2px;
+    background-color: rgb(195, 193, 190);
+    width: 90%;
+}
+.box header{
+    display:flex;
+
+}
+.box header h1{
+    padding-left: 10px;
+    width: 20%;
+}
+.counter{
+    float: right;
+    width: 20%;
+    margin-left:60%;
+}
+.box button{
+    width: 100%;
+}
+h1{
+    display: block;
+}
+.parts
+{
+    background-color: whitesmoke;
+    padding: 2%;
+        margin: 5%;
+}
+
+.parts h2{
+    font-size:medium;
+}
