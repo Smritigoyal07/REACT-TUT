@@ -1,13 +1,12 @@
 
 function Print(probs) {
     let itemList = probs.todolist.map((item, index) => {
+        
             return (
-                <>
-                    <div className="parts">
-                        <h1>{item.name}</h1>
+                <div className="parts" key={index}>
                         <h2>{item.des}</h2>
-                    </div>
-                </>
+                        <h3>{item.name}</h3>
+                </div>
             )
         })
 

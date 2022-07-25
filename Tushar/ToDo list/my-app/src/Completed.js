@@ -8,6 +8,10 @@ function Completed() {
                 "name": "Smriti Goyal",
                 "des": "Front end"
             },
+            {
+                "name": "Smriti Goyal",
+                "des": "Front end"
+            },
 
         ]
     let [todolist, settodoobj] = useState(todoobj);
@@ -31,7 +35,9 @@ function Completed() {
                     <h1 className="counter">{todolist.length}</h1>
                 </header>
                 <button onClick={giveinput}>+</button>
-                <Print todolist={todolist} />
+                <div className="data">
+                    <Print todolist={todolist} />
+                </div>
             </div>
         </div>
     );

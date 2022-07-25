@@ -27,8 +27,8 @@ function Inprogress() {
         <div className="App">
             <div className="box">
                 <header>
-                    <h1>In progress</h1>
-                    <h2 className="counter">{todolist.length}</h2>
+                    <h1>InProgress</h1>
+                    <h1 className="counter">{todolist.length}</h1>
                 </header>
                 <button onClick={giveinput}>+</button>
                 <Print todolist={todolist} />
