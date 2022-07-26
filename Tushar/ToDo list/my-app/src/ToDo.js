@@ -1,13 +1,15 @@
 import React, { useState } from 'react';
 import Print from './Print'
 
-function Card() {
+function ToDo() {
     let todoobj =
         [
             {
                 "name": "Tushar Verma",
-                "des": "Nothing to do."
+                "des": "Nothing to do. 1"
             },
+            
+             
 
         ]
     let [todolist, settodoobj] = useState(todoobj);
@@ -24,8 +26,7 @@ function Card() {
         console.log(todolist)
     }
     return (
-        <div className="App">
-            <div className="box">
+            <div className="box1">
                 <header>
                     <h1>Todo</h1>
                     <h1 className="counter">{todolist.length}</h1>
@@ -33,8 +34,8 @@ function Card() {
                 <button onClick={giveinput}>+</button>
                 <Print todolist={todolist} />
             </div>
-        </div>
+        
     );
 }
 
-export default Card;
+export default ToDo;

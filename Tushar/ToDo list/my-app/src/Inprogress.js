@@ -24,8 +24,7 @@ function Inprogress() {
         console.log(todolist)
     }
     return (
-        <div className="App">
-            <div className="box">
+            <div className="box2">
                 <header>
                     <h1>InProgress</h1>
                     <h1 className="counter">{todolist.length}</h1>
@@ -33,7 +32,6 @@ function Inprogress() {
                 <button onClick={giveinput}>+</button>
                 <Print todolist={todolist} />
             </div>
-        </div>
     );
 }
 

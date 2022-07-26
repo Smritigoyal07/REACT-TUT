@@ -1,11 +1,12 @@
-import Card from './Card'
+import ToDo from './ToDo'
 import Inprogress from './Inprogress'
 import Completed from './Completed'
 
 function App() {
   return (
     <div className="App">
-      <Card />
+      <h1 className='main'>PROJECTS</h1>
+      <ToDo />
       <Inprogress />
       <Completed />
     </div>
